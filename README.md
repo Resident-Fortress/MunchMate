@@ -15,11 +15,11 @@ Getting Started
     - Drag and drop the Application to your Applications folder
     - Start logging away!
    
-// Contributing
-// Pull requests and feedback are welcome! Please fork the repo and submit changes via a branch/PR.
+   Contributing
+   Pull requests and feedback are welcome! Please fork the repo and submit changes via a branch/PR.
 
-// License
-// MIT License
+  License
+  MIT License
 
-// ---
-// Created by Matthew Dudzinski
+ ---
+  Created by Matthew Dudzinski
