@@ -7,27 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0EDF61C92E121356006A70EC /* SwiftData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E16F0F42E0DD12B0047EBC6 /* SwiftData.framework */; };
-		0EDF61CA2E121356006A70EC /* SwiftData.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0E16F0F42E0DD12B0047EBC6 /* SwiftData.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0EDF61CD2E1213A9006A70EC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0EDF61CC2E1213A9006A70EC /* README.md */; };
+		0EDF61D12E121417006A70EC /* SwiftData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E16F0F42E0DD12B0047EBC6 /* SwiftData.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		0EDF61CB2E121356006A70EC /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				0EDF61CA2E121356006A70EC /* SwiftData.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0E16F0E52E0DD1130047EBC6 /* MunchMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MunchMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E16F0F42E0DD12B0047EBC6 /* SwiftData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.sdk/System/Library/Frameworks/SwiftData.framework; sourceTree = DEVELOPER_DIR; };
+		0EDF61CC2E1213A9006A70EC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -43,7 +30,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EDF61C92E121356006A70EC /* SwiftData.framework in Frameworks */,
+				0EDF61D12E121417006A70EC /* SwiftData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +43,7 @@
 				0E16F0E72E0DD1130047EBC6 /* MunchMate */,
 				0E16F0F32E0DD12A0047EBC6 /* Frameworks */,
 				0E16F0E62E0DD1130047EBC6 /* Products */,
+				0EDF61CC2E1213A9006A70EC /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,7 +73,6 @@
 				0E16F0E12E0DD1130047EBC6 /* Sources */,
 				0E16F0E22E0DD1130047EBC6 /* Frameworks */,
 				0E16F0E32E0DD1130047EBC6 /* Resources */,
-				0EDF61CB2E121356006A70EC /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -140,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EDF61CD2E1213A9006A70EC /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
